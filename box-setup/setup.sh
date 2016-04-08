@@ -2,7 +2,7 @@
 export DEBIAN_FRONTEND=noninteractive
 
 # setting proxy for apt
-cp /vagrant/box-setup/apt-proxy.conf /etc/apt/apt.conf.d/20proxy.conf
+#cp /vagrant/box-setup/apt-proxy.conf /etc/apt/apt.conf.d/20proxy.conf
 
 # update ubuntu
 apt-get update -y

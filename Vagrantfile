@@ -9,6 +9,7 @@ Vagrant.configure(2) do |config|
   config.vm.hostname = "vagrant-lamp"
 
   config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "forwarded_port", guest: 3306, host: 3306
 
   # config.vm.provider "virtualbox" do |vb|
   #   # Display the VirtualBox GUI when booting the machine
